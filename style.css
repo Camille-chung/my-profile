@@ -1,0 +1,109 @@
+/*colors and fonts */
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	color: purple;
+	font-size: 36px
+	text: center;
+}
+
+body{
+	line-height: 1.2;
+	background-color: #E6E6FA;
+	font-family: courier, monospace;
+	font-size: 16px
+	text: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+h2{
+	line-height: 0.95;
+	font-weight: 600;
+	color: #A483C2;
+}
+
+#insta {
+	border-radius: 20%;
+	border: 2px solid purple;
+}
+#gaming {
+	border-radius: 20%;
+	border:2px solid purple;
+}
+#avatar {
+	border-radius: 120%;
+}
+.img-bordered {
+	border: 5px solid purple;
+}
+
+
+/*custom design with class */
+
+.container {
+	width: 555px;
+	margin: 100px auto;
+}
+
+.box-white {
+	margin: 40px auto;
+	background: white;
+	padding: 40px;
+	box-shadow: 4px 6px 12px darkorchid;
+	border-radius: 12px
+}
+
+.btn-purple {
+	background-color: darkorchid;
+	background: white;
+	padding: 15px 20px;
+	border-radius: 12px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline a {
+	font-size: 50px;
+}
+
+
+
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+}
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+	.container{
+    width: 300px;
+  }
+}
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
